@@ -1,0 +1,28 @@
+{
+  "name": "self-discord",
+  "version": "0.0.1",
+  "description": "a discord bot for some automation!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm install && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakureii/discord-shii.git"
+  },
+  "keywords": [
+    "shiro",
+    "discord",
+    "self-bot",
+    "automation"
+  ],
+  "author": "hakureii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakureii/discord-shii/issues"
+  },
+  "homepage": "https://github.com/hakureii/discord-shii",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.2.2"
+  }
+}
