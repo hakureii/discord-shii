@@ -25,6 +25,8 @@ client.on('ready', async () => {
   for (let i = 4; i >= 0; i--) {
     await pull();
   }
+
+  process.exit(0);
 });
 
 client.login(process.env.TOKEN);
