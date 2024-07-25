@@ -22,7 +22,7 @@ client.on('ready', async () => {
     }
   };
 
-  for (let i = 4; i >= 0; i--) {
+  for (let i = 5; i >= 0; i--) {
     await pull();
   }
 
